@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --hue: 13;
+
+    --text-font: "Source Serif Pro";;
+    --button-font: 'Source Serif 4', serif;
+    --base-color: hsla(var(--hue), 61%, 40%, 1);
+
+    --bg-mobile: #ffffff;
+}
+
+body {
+    font-family: var(--text-font);
+    font-size: 1.6rem;
+    color: var(--base-color);
+
+}
+
+main {
+    max-width: 32rem;
+
+    margin-inline: auto;
+
+    padding: 5.6rem 4rem;
+    box-sizing: content-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+img {
+    width: 100%;
+    margin-block: 3.2rem;
+}
+
+
+button {
+    font-family: var(--button-font);
+    color: #ffffff;
+
+    background-color: var(--base-color);
+
+    padding: .8rem 1.2rem;
+
+    border-radius: .6rem;
+    border: 0;
+
+    margin-top: 3.2rem;
+
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(193, 79, 47);
+}
+
+h1, h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+}
+
+h2 {
+    margin-bottom: 3.2rem;
+}
+
+p, li, strong {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+ul, ol {
+    padding-left: 2.4rem;
+}
+
+ul {
+    margin-bottom: 3.2rem;
+}
